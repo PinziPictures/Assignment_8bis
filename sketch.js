@@ -8,8 +8,8 @@ var restart=0;
 var count=0;
 
 function preload() {
-    cover = loadImage("./Assets/mano.jpg");
-    coverMask = loadImage("./Assets/mano.png");
+    cover = loadImage("./assets/mano.jpg");
+    coverMask = loadImage("./assets/mano.png");
     
     for(var x=0;x<4;x++)
         img[x] = loadImage(scelta[x]);
